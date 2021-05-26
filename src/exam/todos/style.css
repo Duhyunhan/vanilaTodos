@@ -1,0 +1,54 @@
+@media (prefers-color-scheme: light) {
+    :root {
+      background:white;
+      color: black;
+    }
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      background:gray;
+      color: white;
+    }
+  }
+:root[color-mode="light"]{
+    background: white;
+    color: black;
+}
+:root[color-mode="dark"]{
+    background: gray;
+    color:white;
+}
+.container{
+    /* border:1px solid; */
+    width:700px;
+}
+
+.dark-check{
+    border:1px solid;
+    border-radius: 5px;
+    width:100px;
+}
+.title{
+    text-align: center;
+}
+
+.input-todo {
+    width:500px;
+    /* background:transparent; */
+    margin:0 auto;
+    border:none;
+    outline:none;
+    border-bottom: 2px solid;
+    display:block;
+}
+.todos {
+    border:2px solid;
+    border-radius:5px;
+    width:520px;
+    margin:20px auto;
+    padding:10px;
+}
+
+li {
+    list-style: none;
+}
